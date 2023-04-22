@@ -1,0 +1,140 @@
+a, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #000000;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/background/food-background.jpg) center -180px no-repeat;
+    height: 925px;
+    width: auto;
+    color: #ffffff;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 80px 0;
+    border-bottom: 3px solid white;
+}
+
+#header h1 {
+    display: flex;
+    width: auto;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-weight:lighter;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav a {
+    width: auto;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#intro {
+    height: 825px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 120PX;
+    font-family: 'Inter', Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+    padding: 0 35px 25px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    margin: 0px auto;
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+#container2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+#boxsize {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.bread {
+    background-color: #000000;
+}
+
+.img {
+    height: 100%;
+    width: 750px;
+    object-fit: scale-down;
+}
+
+.pineapple {
+    background-color: #0f0f0f;
+    flex-direction: row-reverse;
+}
+
+.pasta {
+    background-color: #1b1b1b;
+}
+
+.info {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', Helvetica, sans-serif;
+}
+
+.info h2 {
+    font-size: 40px;
+    margin: 0 120px;
+}
+
+.info p {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 40px 0 0;
+    margin: 0 120px 80px;
+}
